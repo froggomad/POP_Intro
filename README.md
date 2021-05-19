@@ -62,7 +62,9 @@ struct StandardCar: Car {
 }
 ```
 
+```swift
 let car = StandardCar()
 print(car.canFly)
 let flyingCar = FlyingCar()
 print(flyingCar.canFly)
+```
