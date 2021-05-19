@@ -6,7 +6,6 @@
 //
 
 struct StandardCar: Car {
-    var name: String = "Standard model car"
-    
+    var name: String = "Standard model car"    
     var wheels: Int = 4
 }

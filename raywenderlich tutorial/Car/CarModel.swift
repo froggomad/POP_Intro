@@ -6,7 +6,7 @@
 //
 
 /// Note: While all cars conform to Flyable, default implementations are overriden so only certain cars are able to fly
-enum CarModel: Car, Flyable {
+enum CarModel: Car, SometimesFlyable {
     case junker
     case delorean
     case xWing

@@ -5,13 +5,11 @@
 //  Created by Kenneth Dubroff on 5/18/21.
 //
 
-protocol Car {
+protocol Car: SometimesFlyable {
     var name: String { get }
     var wheels: Int { get }
 }
 
 extension Car {
-    var canFly: Bool {
-        self is Flyable
-    }
+    var canFly: Bool { self is Flyable }
 }

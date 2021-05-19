@@ -6,6 +6,9 @@
 //
 
 protocol Flyable {
-    var airspeedVelocity: Double { get }
+    var airspeedVelocity: Double { get }    
+}
+
+protocol SometimesFlyable {
     var canFly: Bool { get }
 }

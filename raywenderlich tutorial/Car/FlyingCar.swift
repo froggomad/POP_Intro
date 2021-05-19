@@ -10,3 +10,4 @@ struct FlyingCar: Flyable, Car {
     var name: String = "Flying Car, Model 1"
     var wheels: Int = 4
 }
+

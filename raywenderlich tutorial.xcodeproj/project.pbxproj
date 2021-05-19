@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		AA19B15926543D0900C6FB24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA19B15826543D0900C6FB24 /* AppDelegate.swift */; };
 		AA19B15B26543D0900C6FB24 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA19B15A26543D0900C6FB24 /* SceneDelegate.swift */; };
-		AA19B15D26543D0900C6FB24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA19B15C26543D0900C6FB24 /* ViewController.swift */; };
+		AA19B15D26543D0900C6FB24 /* MixedEnumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA19B15C26543D0900C6FB24 /* MixedEnumViewController.swift */; };
 		AA19B16026543D0900C6FB24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA19B15E26543D0900C6FB24 /* Main.storyboard */; };
 		AA19B16226543D0A00C6FB24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA19B16126543D0A00C6FB24 /* Assets.xcassets */; };
 		AA19B16526543D0A00C6FB24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA19B16326543D0A00C6FB24 /* LaunchScreen.storyboard */; };
@@ -28,7 +28,7 @@
 		AA19B15526543D0900C6FB24 /* raywenderlich tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "raywenderlich tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA19B15826543D0900C6FB24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA19B15A26543D0900C6FB24 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AA19B15C26543D0900C6FB24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AA19B15C26543D0900C6FB24 /* MixedEnumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixedEnumViewController.swift; sourceTree = "<group>"; };
 		AA19B15F26543D0900C6FB24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AA19B16126543D0A00C6FB24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA19B16426543D0A00C6FB24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -126,7 +126,7 @@
 		AA19B182265445AE00C6FB24 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				AA19B15C26543D0900C6FB24 /* ViewController.swift */,
+				AA19B15C26543D0900C6FB24 /* MixedEnumViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -215,7 +215,7 @@
 				AA19B17826543EE800C6FB24 /* Penguin.swift in Sources */,
 				AA19B17D26543FBB00C6FB24 /* CarModel.swift in Sources */,
 				AA19B17F26543FC400C6FB24 /* Car.swift in Sources */,
-				AA19B15D26543D0900C6FB24 /* ViewController.swift in Sources */,
+				AA19B15D26543D0900C6FB24 /* MixedEnumViewController.swift in Sources */,
 				AA19B17B26543F5000C6FB24 /* ThreeQuestions.swift in Sources */,
 				AA19B15926543D0900C6FB24 /* AppDelegate.swift in Sources */,
 				AA19B15B26543D0900C6FB24 /* SceneDelegate.swift in Sources */,
